@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE04759C28DA9877000E0C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE04759B28DA9877000E0C86 /* AppDelegate.swift */; };
-		FE04759E28DA9877000E0C86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE04759D28DA9877000E0C86 /* SceneDelegate.swift */; };
 		FE0475A028DA9877000E0C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE04759F28DA9877000E0C86 /* ViewController.swift */; };
-		FE0475A328DA9877000E0C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0475A128DA9877000E0C86 /* Main.storyboard */; };
 		FE0475A528DA9878000E0C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0475A428DA9878000E0C86 /* Assets.xcassets */; };
 		FE0475A828DA9878000E0C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0475A628DA9878000E0C86 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		FE04759828DA9877000E0C86 /* enjoy-holidays-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "enjoy-holidays-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE04759B28DA9877000E0C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE04759D28DA9877000E0C86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE04759F28DA9877000E0C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE0475A228DA9877000E0C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE0475A428DA9878000E0C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0475A728DA9878000E0C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE0475A928DA9878000E0C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				FE04759B28DA9877000E0C86 /* AppDelegate.swift */,
-				FE04759D28DA9877000E0C86 /* SceneDelegate.swift */,
 				FE04759F28DA9877000E0C86 /* ViewController.swift */,
-				FE0475A128DA9877000E0C86 /* Main.storyboard */,
 				FE0475A428DA9878000E0C86 /* Assets.xcassets */,
 				FE0475A628DA9878000E0C86 /* LaunchScreen.storyboard */,
 				FE0475A928DA9878000E0C86 /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				FE0475A828DA9878000E0C86 /* LaunchScreen.storyboard in Resources */,
 				FE0475A528DA9878000E0C86 /* Assets.xcassets in Resources */,
-				FE0475A328DA9877000E0C86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				FE0475A028DA9877000E0C86 /* ViewController.swift in Sources */,
 				FE04759C28DA9877000E0C86 /* AppDelegate.swift in Sources */,
-				FE04759E28DA9877000E0C86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FE0475A128DA9877000E0C86 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE0475A228DA9877000E0C86 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FE0475A628DA9878000E0C86 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +275,6 @@
 				INFOPLIST_FILE = "enjoy-holidays-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +301,6 @@
 				INFOPLIST_FILE = "enjoy-holidays-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
