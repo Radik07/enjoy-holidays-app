@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
 extension LoginViewController {
     
     private func style() {
-        loginView.backgroundColor = .orange
+        loginView.backgroundColor = .systemGroupedBackground
         loginView.translatesAutoresizingMaskIntoConstraints = false
     }
     
