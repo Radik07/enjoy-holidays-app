@@ -14,6 +14,7 @@ class LoginView: UIView {
     let fullNameTextField = UITextField()
     let passwordTextField = UITextField()
     
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         style()
@@ -48,8 +49,7 @@ extension LoginView {
         passwordTextField.delegate = self
         
         lineView.translatesAutoresizingMaskIntoConstraints = false
-        lineView.backgroundColor = .gray
-        
+        lineView.backgroundColor = .systemGray4
         layer.cornerRadius = 5
         clipsToBounds = true
     }
@@ -69,17 +69,13 @@ extension LoginView {
 extension LoginView: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        fullNameTextField.endEditing(true)
+        fullNameTextField.endEditing(false)
         passwordTextField.endEditing(true)
         return true
     }
     
     func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
-        if textField.text != "" {
-            return true
-        } else {
-            return false
-        }
+      return true
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
