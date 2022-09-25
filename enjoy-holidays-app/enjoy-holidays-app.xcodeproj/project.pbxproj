@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FE04759C28DA9877000E0C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE04759B28DA9877000E0C86 /* AppDelegate.swift */; };
-		FE0475A028DA9877000E0C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE04759F28DA9877000E0C86 /* ViewController.swift */; };
+		FE0475A028DA9877000E0C86 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE04759F28DA9877000E0C86 /* LoginViewController.swift */; };
 		FE0475A528DA9878000E0C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0475A428DA9878000E0C86 /* Assets.xcassets */; };
 		FE0475A828DA9878000E0C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0475A628DA9878000E0C86 /* LaunchScreen.storyboard */; };
+		FEFC107C28DFDCB30068D55E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC107B28DFDCB30068D55E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE04759828DA9877000E0C86 /* enjoy-holidays-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "enjoy-holidays-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE04759B28DA9877000E0C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE04759F28DA9877000E0C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE04759F28DA9877000E0C86 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FE0475A428DA9878000E0C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0475A728DA9878000E0C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE0475A928DA9878000E0C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFC107B28DFDCB30068D55E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				FE04759B28DA9877000E0C86 /* AppDelegate.swift */,
-				FE04759F28DA9877000E0C86 /* ViewController.swift */,
+				FEFC107B28DFDCB30068D55E /* LoginView.swift */,
+				FE04759F28DA9877000E0C86 /* LoginViewController.swift */,
 				FE0475A428DA9878000E0C86 /* Assets.xcassets */,
 				FE0475A628DA9878000E0C86 /* LaunchScreen.storyboard */,
 				FE0475A928DA9878000E0C86 /* Info.plist */,
@@ -131,7 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0475A028DA9877000E0C86 /* ViewController.swift in Sources */,
+				FEFC107C28DFDCB30068D55E /* LoginView.swift in Sources */,
+				FE0475A028DA9877000E0C86 /* LoginViewController.swift in Sources */,
 				FE04759C28DA9877000E0C86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
